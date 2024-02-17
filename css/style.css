@@ -1,0 +1,170 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.button_1{
+	height: 24px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color:orange;
+	border: none; 
+	color: #ffff;
+}
+
+.dark{
+	padding: 15px;
+	background-color: #766768;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+header{
+	background-color: #425456;
+	color: #ffffff;
+	padding-top: 50px;
+	min-height: 80px;
+	border-bottom: #e8491d 3px solid; 
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+
+header li{
+	float: left;
+	display: inline;
+	padding: 20px 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	padding: 20px 20px; 
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 0;
+}
+
+header .highlight, header .current a{
+	color: #e47849;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: red;
+	font-weight: bold;
+}
+
+#showcase{
+	min-height: 400px;
+	background: url('../image/tire.jpg')  repeat;
+	text-align: center;
+	color: red;
+}
+
+#showcase h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 20px;
+	padding: 25px;
+}
+
+#newsletter{
+	padding: 15px;
+	color: #ffffff;
+	background-color:#a42355;
+}
+
+#newsletter h1{
+	float: left;
+}
+
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+	padding: 3px;
+	height: 20px;
+	width: 200px;
+}
+
+#boxes{
+	margin-top: 20px; 
+}
+
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 11px;
+}
+
+#boxes .box img{
+	width: 90px;
+}
+
+article#main-col{
+	float: left;
+	width: 65%;
+}
+
+aside#sidebar{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+	width: 90%;
+	padding: 5px;
+}
+
+ul#services li{
+	list-style: none;
+	padding: 20px;
+	border: #654 solid 1px;
+	margin-bottom: 5px;
+	background-color: #5555;
+}
+
+footer{
+	background-color: #4546;
+	color: #ffff;
+	font-size: 15px;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
