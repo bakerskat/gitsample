@@ -1,1 +1,1 @@
-console.log("mainss");
+console.log("mains");
